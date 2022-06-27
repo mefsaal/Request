@@ -1,0 +1,14 @@
+{
+    "name": "Discord Request",
+    "description": "Request styles to Discord/Github Changes",
+    "version": "0.0.1",
+    "author": "Astora",
+    "github_repo": "mefsaal/Request",
+    "pack":[
+        {
+            "name": "Sidebar Request",
+            "description": "Sidebar 220px Request",
+            "file": "addons/sidebar.less"
+        }
+    ]
+}
