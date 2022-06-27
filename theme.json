@@ -9,6 +9,12 @@
             "name": "Sidebar Request",
             "description": "Sidebar 220px Request",
             "file": "addons/sidebar.less"
+        },
+        {
+            "name": "Colorfull Background",
+            "description": "Colorfull Background",
+            "file": "addons/colorfull.less"
+
         }
     ]
 }
