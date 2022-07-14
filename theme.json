@@ -1,7 +1,7 @@
 {
     "name": "Discord Request",
     "description": "Request styles to Discord/Github Changes",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "author": "Astora",
     "github_repo": "mefsaal/Request",
     "pack":[
