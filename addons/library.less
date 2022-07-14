@@ -2,9 +2,22 @@
     @media screen and (min-width: 1500px) {
         .well.itemContainer.collection-list-square {
         display: grid;
-        grid-template-columns: repeat(10, minmax(160px, 1fr)) !important;
+        grid-template-columns: repeat(7, minmax(160px, 1fr)) !important;
         }
     }
+    @media screen and (min-width: 1700px) {
+        .well.itemContainer.collection-list-square {
+        display: grid;
+        grid-template-columns: repeat(8, minmax(160px, 1fr)) !important;
+        }
+    }
+
+    @media screen and (min-width: 1800px) {
+        .well.itemContainer.collection-list-square {
+        display: grid;
+        grid-template-columns: repeat(9, minmax(160px, 1fr)) !important;
+        }
+    }    
 
     .well.itemContainer.collection-list-square {
         display: grid;
@@ -24,5 +37,12 @@
                 }
             }            
         }
+    }
+
+    &:not(.modular-fs) {
+        .app-drawer {
+
+        }
+
     }
 }
