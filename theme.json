@@ -15,6 +15,11 @@
             "description": "Colorfull Background",
             "file": "addons/colorfull.less"
 
+        },
+        {
+            "name" : "library Space itheme only",
+            "description": "library Space",
+            "file": "addons/library.less"
         }
     ]
 }

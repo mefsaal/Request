@@ -1,0 +1,28 @@
+#app {
+    @media screen and (min-width: 1500px) {
+        .well.itemContainer.collection-list-square {
+        display: grid;
+        grid-template-columns: repeat(10, minmax(160px, 1fr)) !important;
+        }
+    }
+
+    .well.itemContainer.collection-list-square {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(170px, 1fr)) !important;
+
+        .cd-mediaitem-square{
+            height: 280px;
+        }
+    }
+
+    .app-navigation {
+        #app-content { 
+            .content-inner {
+                .cd-mediaitem-square {
+                    width: calc(var(--contentWidth) / 9.925);
+                    height: fit-content;
+                }
+            }            
+        }
+    }
+}
